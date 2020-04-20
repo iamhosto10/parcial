@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/style3.css">
+    <title>Cuestionario</title>
+    <script src="app.js"></script>
+    <script>
+        cuestionario();
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Cuestionario</h2>
+        <main id="main">
+            <div class="pc-tab">
+                <input checked="checked" id="tab1" type="radio" name="pct" />
+                <input id="tab2" type="radio" name="pct" />
+                <input id="tab3" type="radio" name="pct" />
+                <input id="tab4" type="radio" name="pct" />
+                <input id="tab5" type="radio" name="pct" />
+                <nav>
+                    <ul id="lista">
+                        <li class="tab1">
+                            <label for="tab1" id="lab">Pregunta 1 </label>
+                        </li>
+                        <li class="tab2">
+                            <label for="tab2" id="lab">Pregunta 2</label>
+                        </li>
+                        <li class="tab3">
+                            <label for="tab3" id="lab">Pregunta 3</label>
+                        </li>
+                        <li class="tab4">
+                            <label for="tab4" id="lab">Pregunta 4</label>
+                        </li>
+                        <li class="tab5">
+                            <label for="tab5" id="lab">Pregunta 5</label>
+                        </li>
+                    </ul>
+                </nav>
+                <section id="pk">
+                    <div class="tab1">
+                        <div class="question" id ="question1">
+                            <h4> </h4>
+                        </div>
+                        <form action="#">
+                            <p>
+                                <input type="radio" id="test1" name="radio-group" >
+                                <label id="p11" for="test1"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test2" name="radio-group">
+                                <label id="p12" for="test2"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test3" name="radio-group">
+                                <label id="p13" for="test3"></label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="tab2">
+                        <div class="question" id ="question2">
+                            <h4></h4>
+                        </div>
+                        <form action="#">
+                            <p>
+                                <input type="radio" id="test5" name="radio-group" >
+                                <label id="p21"for="test5"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test6" name="radio-group">
+                                <label id="p22" for="test6"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test7" name="radio-group">
+                                <label id="p23" for="test7"></label>
+                            </p>
+
+                        </form>
+                    </div>
+                    <div class="tab3">
+                        <div class="question" id ="question3">
+                            <h4></h4>
+                        </div>
+                        <form action="#">
+                            <p>
+                                <input type="radio" id="test9" name="radio-group" >
+                                <label id="p31" for="test9"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test10" name="radio-group">
+                                <label id="p32" for="test10"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test11" name="radio-group">
+                                <label id="p33" for="test11"></label>
+                            </p>
+
+                        </form>
+                    </div>
+                    <div class="tab4">
+                        <div class="question" id ="question4">
+                            <h4>
+                            </h4>
+                        </div>
+                        <form action="#">
+                            <p>
+                                <input type="radio" id="test13" name="radio-group" >
+                                <label id="p41" for="test13"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test14" name="radio-group">
+                                <label id="p42" for="test14"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test15" name="radio-group">
+                                <label id="p43" for="test15"></label>
+                            </p>
+
+                        </form>
+                    </div>
+                    <div class="tab5">
+                        <div class="question" id ="question5" >
+                            <h4></h4>
+                        </div>
+                        <form action="#">
+                            <p>
+                                <input type="radio" id="test17" name="radio-group" >
+                                <label id="p51" for="test17"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test18" name="radio-group">
+                                <label id="p52" for="test18"></label>
+                            </p>
+                            <p>
+                                <input type="radio" id="test19" name="radio-group">
+                                <label id="p53" for="test19"></label>
+                            </p>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <a id="pk2" href="./Resultado.html">Enviar respuestas</a>
+    </div>
+</body>
+
+</html>
